@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="sql7270946?zeroDateTimeBehavior=convertToNullPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Kasa.Vino</class>
+    <class>Kasa.Zestoka</class>
+    <class>Kasa.KafaPrikaz</class>
+    <class>Kasa.SokPrikaz</class>
+    <class>Kasa.Proizvodi</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7270946?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="sql7270946"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="aWGZqUvd2n"/>
+    </properties>
+  </persistence-unit>
+  <persistence-unit name="sinergija_baza?zeroDateTimeBehavior=convertToNullPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Kasa.Vino</class>
+    <class>Kasa.Zestoka</class>
+    <class>Kasa.KafaPrikaz</class>
+    <class>Kasa.SokPrikaz</class>
+    <class>Kasa.Proizvodi</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://94.242.54.16:3306/sinergija_baza?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="sinergija_user"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="j3s1b4z4"/>
+    </properties>
+  </persistence-unit>
+</persistence>
