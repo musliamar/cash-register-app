@@ -6,4 +6,4 @@ My first app in Java - college assignment, done few years ago in old pre-apache 
 
 Simple Cash Register app that works with MySQL database.
 
-<video src="https://musli.ch/media/cash-register.webm.mov"></video>
+<video src="https://musli.ch/media/cash-register.mp4"></video>
